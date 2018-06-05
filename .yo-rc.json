@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Testing Like You've Never Tested Before (Because You Haven't)",
+    "packageVersion": "0.0.0",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "stevegrunwell",
+    "githubRepository": "intro-to-testing"
+  }
+}
