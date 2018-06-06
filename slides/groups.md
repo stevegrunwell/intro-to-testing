@@ -13,6 +13,11 @@ public function testIncludesPrivatePosts()
 }
 ```
 
+```sh
+$ phpunit --group=API
+```
+<!-- .element: class="fragment" -->
+
 Note:
 
 * The @group tag lets us group tests — no matter where they live — together
