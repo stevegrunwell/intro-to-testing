@@ -380,3 +380,14 @@ body {
 
 .slides .fragment.visible.highlight-green {
   color: #4F8A10 !important; }
+
+.slides .meme {
+  font-family: Impact, sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+  text-stroke: 1px #000;
+  -webkit-text-stroke: 2px #000;
+  -moz-text-stroke: 2px #000;
+  background: none;
+  box-shadow: none;
+  font-size: 1.5em; }
