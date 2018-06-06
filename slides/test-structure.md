@@ -11,7 +11,7 @@
 
 Note:
 
-* A test suite is a collection of test cases
+* A test suite is a collection of test classes
     - e.g. Unit, integration, feature, etc.
 * Test class (class containing methods)
     - Usually centered around a feature or model

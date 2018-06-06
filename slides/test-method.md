@@ -15,5 +15,5 @@ Note:
 
 * Test methods are public methods declared within the test class
 * By convention, methods begin with "test"
-    - Can use @test DocBlock tag instead
     - Some people prefer to write more descriptive test names
+    - Can use @test DocBlock tag instead
