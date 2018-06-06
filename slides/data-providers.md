@@ -1,6 +1,6 @@
 ### Data providers
 
-<pre class="fragment fragment-replacement" data-fragment-index="0"><code class="hljs lang-php fragment fade-out" data-fragment-index="1">/**
+<pre class="fragment-replacement"><code class="hljs lang-php fragment fade-out" data-fragment-index="0">/**
  * @dataProvider myDataProvider()
  */
 public function testMyFunction($expected, $actual)
@@ -14,7 +14,7 @@ public function myDataProvider()
         'Description of case 1' => ['foo', 'bar'],
         'Description of case 2' => ['bar', 'baz'],
     ];
-}</code><code class="hljs lang-php fragment fade-in" data-fragment-index="1">/**
+}</code><code class="hljs lang-php fragment fade-in" data-fragment-index="0">/**
  * @testWith ["foo", "bar"]
  *           ["bar", "baz"]
  */

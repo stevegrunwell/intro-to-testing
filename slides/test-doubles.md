@@ -2,7 +2,7 @@
 
 <dl>
     <dt>Stub</dt>
-    <dd></dd>
+    <dd>Set the response values</dd>
     <dt>Mock</dt>
     <dd>Replace an object with one that verifies expectations</dd>
     <dt>Spy</dt>
@@ -13,6 +13,7 @@ Note:
 
 * Terms that get thrown around a lot
 * Stub: Hard-code the response for a function/method
+    - Very useful for API responses
 * Mock: Verify that an object behaves in a certain way
 * Spy: Observe what has happened
     - Expect this to happen v. assert that this did happen

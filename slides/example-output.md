@@ -22,4 +22,4 @@ Note:
 * When we chain all of our tests together, we get something that looks like this
 * Example output from actual app
     - Four skipped tests, but everything passes
-    - Failures would be highlighted in red, with messages describing the test the failed
+    - Failures would be highlighted in red, with messages describing the test the failed + stack traces

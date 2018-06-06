@@ -24,5 +24,6 @@
 
 Note:
 
-* Our tests help push us towards another conditional, which makes our new test pass
+* When we run our test, we start in a red state
+* Our tests help push us towards another conditional, which makes our new test pass (green)
 * If this function changes in the future, our test will break, alerting us to a regression
