@@ -6,6 +6,7 @@
     <testsuites>
         <testsuite name="Unit">
             <directory suffix="Test.php">./tests/Unit</directory>
+            <exclude>./tests/Unit/SampleTest.php</exclude>
         </testsuite>
     </testsuites>
     <php>
@@ -18,7 +19,6 @@ Note:
 
 * The phpunit.xml file contains the configuration for PHPUnit
     - Bootstrap file (more in a second)
-    - Behavior
     - Define test suites
     - Exclusions
     - PHP configuration
