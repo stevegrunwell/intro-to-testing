@@ -12,12 +12,12 @@ Popular library for creating test doubles:
     $this->assertEmpty($api->getRecentOrders());
 }</code><code class="hljs lang-php fragment fade-in" data-fragment-index="0">public function testHandlesEmptyOrderList()
 {
-    $api = Mockery::spy(Api::class)->makePartial();
+    $spy = Mockery::spy(Api::class);
+    $api = new Api;
 
     $this->assertEmpty($api->getRecentOrders());
 
-    $api->shouldHaveReceived()
-        ->getOrders()
+    $spy->shouldHaveReceived('getOrders')
         ->once();
 }</code></pre>
 
