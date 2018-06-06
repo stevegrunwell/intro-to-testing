@@ -1,24 +1,26 @@
 ### Fixtures
 
-```php
-public function setUp()
+<pre class="fragment-replacement"><code class="hljs lang-php fragment fade-out" data-fragment-index="0">public function setUp()
 {
     // Set 'em up...
 }
-```
-<!-- .element: class="fragment" -->
 
-```php
 public function tearDown()
 {
     // ...and knock 'em down.
+}</code><code class="hljs lang-php fragment fade-in" data-fragment-index="0">public static function setUpBeforeClass()
+{
+    // Set 'em up (once)...
 }
-```
-<!-- .element: class="fragment" -->
+
+public static function tearDownAfterClass()
+{
+    // ...and knock 'em down (once).
+}</code></pre>
 
 Note:
 
-* Enables common setup actions to be run automatically before each test method
+* Enables common setup and tear-down actions to be run automatically before and after each test method
     - Really useful for integration tests
     - Can also use setUpBeforeClass() for things that only should be run once per test case
 * Likewise, can be used for tearing things down
