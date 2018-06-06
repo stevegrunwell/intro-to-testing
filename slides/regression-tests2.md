@@ -10,11 +10,9 @@ public function testPluralizationOfHeaders($number, $expected)
 {
     $posts = $this->generatePosts($number);
 
-    ob_start();
-    recentPostsHeading($posts);
-    $output = ob_get_clean();
+    $this->expectOutput($expected);
 
-    $this->assertEquals($expected, $output);
+    recentPostsHeading($posts);
 }
 ```
 
@@ -24,4 +22,4 @@ Note:
 * Could write the test thusly:
     - @testWith annotation to specify 0, 1, or greater-than 1
     - Generate the given number of posts through a helper or factory we might have
-    - Capture the output buffer, since our function is printing directly
+    - Set expected output, since our function is printing directly
