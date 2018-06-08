@@ -1,7 +1,7 @@
 <!-- .slide: data-background-image="resources/no-integration-tests.gif" data-background-size="contain" data-background-color="#000" -->
 
 <blockquote class="fragment meme">
-    <p>Unit tests passing<br>No integration tests</p>
+    <p>Unit tests passing,<br>No integration tests</p>
 </blockquote>
 
 Note:
