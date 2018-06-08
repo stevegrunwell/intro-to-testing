@@ -5,8 +5,8 @@ public function testFiltersPostsByAuthor()
 {
     // Create two authors and generate posts for each.
     $authors = $this->generateAuthors(2);
-    $postsA1 = $this->generatePostsForAuthor($author[0], 3);
-    $postsA2 = $this->generatePostsForAuthor($author[1], 2);
+    $postsA0 = $this->generatePostsForAuthor($author[0], 3);
+    $postsA1 = $this->generatePostsForAuthor($author[1], 2);
 
     // Hit the "posts" API endpoint for posts from Author #1.
     $response = $this->get('/posts?author=' . $authors[0]);
