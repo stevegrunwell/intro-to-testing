@@ -13,4 +13,5 @@ This talk covers the fundamentals of testing, in a beginner-friendly way. We'll 
 
 ## Presentation History
 
-* [WordCamp Kent 2018](https://2018.kent.wordcamp.org/) - June 9, 2018
+* [WavePHP 2018](https://wavephp.com/) — September 21, 2018
+* [WordCamp Kent 2018](https://2018.kent.wordcamp.org/) — June 9, 2018
