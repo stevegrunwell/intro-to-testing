@@ -1,7 +1,7 @@
 ### A simple unit test
 
 ```php
-function formatCurrency($amount, $prefix = '$')
+function formatCurrency($amount, $prefix = '$'): string
 {
     return $prefix . number_format($amount/100, 2);
 }

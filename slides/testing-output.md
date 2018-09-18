@@ -38,5 +38,4 @@ Note:
 
 * Imagine a simple greet() method on a User object
     - Doesn't return anything, just prints the output
-* We can use setExpectedOutput() to set the expection
-    - W
+* We can use setExpectedOutput() to set the expectation
