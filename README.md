@@ -13,5 +13,6 @@ This talk covers the fundamentals of testing, in a beginner-friendly way. We'll 
 
 ## Presentation History
 
+* [CodeMash 2019](https://codemash.org) — January 11, 2019
 * [WavePHP 2018](https://wavephp.com/) — September 21, 2018 ([joind.in](https://joind.in/talk/fc19f), [PDF](https://github.com/stevegrunwell/intro-to-testing/releases/download/wavephp-2018/slides.pdf))
 * [WordCamp Kent 2018](https://2018.kent.wordcamp.org/) — June 9, 2018 ([PDF](https://github.com/stevegrunwell/intro-to-testing/releases/download/wordcamp-kent-2018/slides.pdf))
