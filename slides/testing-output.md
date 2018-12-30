@@ -23,7 +23,7 @@ public function greet()
 {
     $user = new User([
         'first_name' => 'Tony',
-        'last_name'  => 'Start',
+        'last_name'  => 'Stank',
     ]);
 
     ob_start();

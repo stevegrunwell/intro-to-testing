@@ -302,7 +302,7 @@ body {
     color: #396b93; }
 
 .reveal output .text-notice {
-  color: cyan; }
+  color: teal; }
 
 .reveal output .highlight-warning {
   display: inline-block;
