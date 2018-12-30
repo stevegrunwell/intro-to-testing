@@ -14,4 +14,5 @@ Note:
 * Dummies are useful if you need to satisfy type-hinted dependencies
 * Fakes are implementations of systems for testing only
     - Think of a logger that writes logs to an array you can later analyze
+    - Writing to SQLite during testing instead of the production database engine
 * The Five Types of Test Doubles & How to Create Them in PHPUnit
