@@ -12,5 +12,6 @@ Note:
     - When I do X, Y should happen
 * Idea of Gherkin is that stakeholders should be able to understand — and maybe even write — the tests
     - Given / When / Then
+    - Arrange / Act / Assert
 * Best for integration tests or above, with PHPUnit focused on unit tests
     - Behat
