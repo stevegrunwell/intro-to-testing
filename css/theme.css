@@ -304,10 +304,20 @@ body {
 .reveal output .text-notice {
   color: teal; }
 
-.reveal output .highlight-warning {
+.reveal output .text-fail {
+  color: red; }
+
+.reveal output .highlight-warning, .reveal output .highlight-fail {
   display: inline-block;
+  padding: 0 2px; }
+
+.reveal output .highlight-warning {
   color: #222;
   background: yellow; }
+
+.reveal output .highlight-fail {
+  color: #fff;
+  background: red; }
 
 .slides h1, .slides h2, .slides h3, .slides h4, .slides h5, .slides h6 {
   line-height: 1.35; }

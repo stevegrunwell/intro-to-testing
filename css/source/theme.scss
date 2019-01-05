@@ -73,10 +73,23 @@ section.has-dark-background {
             color: teal;
         }
 
-        .highlight-warning {
+        .text-fail {
+            color: red;
+        }
+
+        .highlight-warning, .highlight-fail {
             display: inline-block;
+            padding: 0 2px;
+        }
+
+        .highlight-warning {
             color: #222;
             background: yellow;
+        }
+
+        .highlight-fail {
+            color: #fff;
+            background: red;
         }
     }
 }
