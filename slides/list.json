@@ -31,7 +31,8 @@
         "data-providers.md",
         "test-doubles.md",
         "test-doubles2.md",
-        "mockery.md"
+        "mockery.md",
+        "gherkin.md"
     ],
     [
         "assertions.md",
@@ -46,7 +47,6 @@
     [
         "tdd.md",
         "tdd2.md",
-        "bdd.md",
         "regression-tests.md",
         "regression-tests2.md",
         "regression-tests3.md"
