@@ -3,11 +3,11 @@
 <pre class="fragment-replacement"><code class="hljs lang-php fragment fade-out" data-fragment-index="0">class MyAppTest extends PHPUnit\Framework\TestCase
 {
     // Include test methods.
-}</code><code class="hljs lang-php fragment fade-in" data-fragment-index="0">class MyTestCase extends PHPUnit\Framework\TestCase {
+}</code><code class="hljs lang-php fragment fade-in" data-fragment-index="0">class MyTestClass extends PHPUnit\Framework\TestCase {
     // Common functionality.
 }
 
-class MyAppTest extends MyTestCase
+class MyAppTest extends MyTestClass
 {
     // Include test methods.
 }</code></pre>
