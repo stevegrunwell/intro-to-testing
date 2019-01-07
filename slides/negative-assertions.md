@@ -24,5 +24,4 @@
 Note:
 
 * (Most) every assertion has an equal and opposite assertion
-* Most assertions come with a corresponding negative assertion
     - Typically in the form of assertThing(), assertNotThing()
