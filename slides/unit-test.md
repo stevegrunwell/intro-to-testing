@@ -1,9 +1,9 @@
 ### A simple unit test
 
 ```php
-function formatCurrency($amount, $prefix = '$'): string
+function formatCurrency(int $cents, string $prefix = '$'): string
 {
-    return $prefix . number_format($amount/100, 2);
+    return $prefix . number_format($cents/100, 2);
 }
 ```
 

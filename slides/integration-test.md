@@ -4,14 +4,16 @@
 public function testFiltersPostsByAuthor()
 {
     // Create two authors and generate posts for each.
-    $authors = $this->generateAuthors(2);
-    $postsA0 = $this->generatePostsForAuthor($author[0], 3);
-    $postsA1 = $this->generatePostsForAuthor($author[1], 2);
+    $bob   = $this->generateAuthors('Bob');
+    $alice = $this->generateAuthor('Alice');
 
-    // Hit the "posts" API endpoint for posts from Author #1.
-    $response = $this->get('/posts?author=' . $authors[0]);
+    $this->generatePostsForAuthor($bob, 2);
+    $this->generatePostsForAuthor($alice, 3);
 
-    $this->assertCount(3, $response, 'Expected to see 3 posts.');
+    // Hit the "posts" API endpoint for posts from Bob.
+    $response = $this->get('/posts?author=' . $bob->id);
+
+    $this->assertCount(2, $response, 'Expected to see 2 posts.');
 }
 ```
 
@@ -21,4 +23,4 @@ For this test, assume we have an API with a /posts endpoint, which can be filter
 
 First, generate two authors, and assign some posts to each author.
 
-If we hit the endpoint for author 1, we expect to see the three posts we assigned earlier.
+If we hit the endpoint for Bob, we expect to see the three posts we assigned earlier.

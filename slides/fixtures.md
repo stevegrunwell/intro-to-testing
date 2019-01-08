@@ -8,7 +8,7 @@
 public function tearDown()
 {
     // ...and knock 'em down.
-}</code><code class="hljs lang-php fragment fade-in" data-fragment-index="0">public static function setUpBeforeClass()
+}</code><span class="fragment fade-out" data-fragment-index="1"><code class="hljs lang-php fragment fade-in" data-fragment-index="0">public static function setUpBeforeClass()
 {
     // Set 'em up (once)...
 }
@@ -16,6 +16,12 @@ public function tearDown()
 public static function tearDownAfterClass()
 {
     // ...and knock 'em down (once).
+}</code></span><code class="hljs lang-php fragment fade-in" data-fragment-index="1">/**
+ * @before
+ */
+public function doSomethingBeforeEachTestMethod()
+{
+    // Do something before each test method.
 }</code></pre>
 
 Note:

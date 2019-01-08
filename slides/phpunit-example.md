@@ -23,8 +23,8 @@ public function testGetCoffee()
 
 Note:
 
-* Unit test for the getCoffee() method
-    - method returns Coffee object with given size + roast level
+* Unit test for the getCoffee() function
+    - function returns Coffee object with given size + roast level
 * Test within PHPUnit might look like this:
     - Call getCoffee() with 'large' size and 'light' roast
     - Assert we received an instance of Coffee, with a size of large and a light roast
