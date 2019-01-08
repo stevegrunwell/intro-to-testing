@@ -70,13 +70,26 @@ section.has-dark-background {
         @extend code;
 
         .text-notice {
-            color: cyan;
+            color: teal;
+        }
+
+        .text-fail {
+            color: red;
+        }
+
+        .highlight-warning, .highlight-fail {
+            display: inline-block;
+            padding: 0 2px;
         }
 
         .highlight-warning {
-            display: inline-block;
             color: #222;
             background: yellow;
+        }
+
+        .highlight-fail {
+            color: #fff;
+            background: red;
         }
     }
 }
@@ -95,6 +108,14 @@ section.has-dark-background {
 
         code {
             text-transform: none;
+        }
+    }
+
+    h1 {
+        line-height: 1.5;
+        small {
+            display: block;
+            margin-top: .5em;
         }
     }
 

@@ -302,12 +302,22 @@ body {
     color: #396b93; }
 
 .reveal output .text-notice {
-  color: cyan; }
+  color: teal; }
+
+.reveal output .text-fail {
+  color: red; }
+
+.reveal output .highlight-warning, .reveal output .highlight-fail {
+  display: inline-block;
+  padding: 0 2px; }
 
 .reveal output .highlight-warning {
-  display: inline-block;
   color: #222;
   background: yellow; }
+
+.reveal output .highlight-fail {
+  color: #fff;
+  background: red; }
 
 .slides h1, .slides h2, .slides h3, .slides h4, .slides h5, .slides h6 {
   line-height: 1.35; }
@@ -318,6 +328,12 @@ body {
     max-height: 1.5em; }
   .slides h1 code, .slides h1 .reveal output, .reveal .slides h1 output, .slides h2 code, .slides h2 .reveal output, .reveal .slides h2 output, .slides h3 code, .slides h3 .reveal output, .reveal .slides h3 output, .slides h4 code, .slides h4 .reveal output, .reveal .slides h4 output, .slides h5 code, .slides h5 .reveal output, .reveal .slides h5 output, .slides h6 code, .slides h6 .reveal output, .reveal .slides h6 output {
     text-transform: none; }
+
+.slides h1 {
+  line-height: 1.5; }
+  .slides h1 small {
+    display: block;
+    margin-top: .5em; }
 
 .slides a:hover img {
   box-shadow: none; }
