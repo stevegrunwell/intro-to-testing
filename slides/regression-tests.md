@@ -11,10 +11,10 @@ function recentPostsHeading(array $posts)
 }
 ```
 
-<pre><output>There have been no posts in the last 30 days
-<span class="fragment highlight-red">1 posts in the last 30 days.</span>
-2 posts in the last 30 days.</output></pre>
-<!-- .element: class="fragment" -->
+<pre><output><span class="fragment highlight-green" data-fragment-index="1"><span class="fragment status-icon" data-fragment-index="1">&#x2714;</span> There have been no posts in the last 30 days</span>
+<span class="fragment highlight-red" data-fragment-index="1"><span class="fragment status-icon" data-fragment-index="1">&#x1D5EB;</span> 1 posts in the last 30 days.</span>
+<span class="fragment highlight-green" data-fragment-index="1"><span class="fragment status-icon" data-fragment-index="1">&#x2714;</span> 2 posts in the last 30 days.</span></output></pre>
+<!-- .element: class="fragment" data-fragment-index="0" -->
 
 Note:
 

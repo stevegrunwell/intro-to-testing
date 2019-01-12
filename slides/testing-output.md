@@ -16,9 +16,11 @@ public function greet()
         'last_name'  => 'Stark',
     ]);
 
-    $this->setExpectedOutput('Hello, Tony!');
-
+    ob_start();
     $user->greet();
+    $output = ob_get_clean();
+
+    $this->assertContains('Tony', $output);
 }</code><code class="hljs lang-php fragment fade-in" data-fragment-index="2">public function testRendersHelloWorld()
 {
     $user = new User([
@@ -26,11 +28,9 @@ public function greet()
         'last_name'  => 'Stank',
     ]);
 
-    ob_start();
-    $user->greet();
-    $output = ob_get_clean();
+    $this->setExpectedOutput('Hello, Tony!');
 
-    $this->assertContains('Tony', $output);
+    $user->greet();
 }</code></pre></div>
 </div>
 
@@ -38,4 +38,5 @@ Note:
 
 * Imagine a simple greet() method on a User object
     - Doesn't return anything, just prints the output
+* Could capture the output buffer to make assertions, OR
 * We can use setExpectedOutput() to set the expectation
