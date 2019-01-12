@@ -305,7 +305,7 @@ body {
   color: teal; }
 
 .reveal output .text-fail {
-  color: red; }
+  color: #D8000C; }
 
 .reveal output .highlight-warning, .reveal output .highlight-fail {
   display: inline-block;
@@ -317,7 +317,7 @@ body {
 
 .reveal output .highlight-fail {
   color: #fff;
-  background: red; }
+  background: #D8000C; }
 
 .slides h1, .slides h2, .slides h3, .slides h4, .slides h5, .slides h6 {
   line-height: 1.35; }
@@ -407,3 +407,7 @@ body {
   background: none;
   box-shadow: none;
   font-size: 1.5em; }
+
+.slides .status-icon {
+  font-size: .8em;
+  vertical-align: center; }

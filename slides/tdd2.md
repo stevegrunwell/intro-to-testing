@@ -1,7 +1,7 @@
 ### Basic Workflow
 
-1. <!-- .element: class="fragment" data-fragment-index="0" --> <span class="fragment highlight-red" data-fragment-index="3">Write a (failing) test to describe the functionality/behavior</span>
-2. <!-- .element: class="fragment" data-fragment-index="1" --> <span class="fragment highlight-green" data-fragment-index="3">Write the code necessary to make the test pass</span>
+1. <!-- .element: class="fragment" data-fragment-index="0" --> <span class="fragment highlight-red" data-fragment-index="3">Write a (failing) test to describe the functionality/behavior <span class="fragment status-icon" data-fragment-index="3">&#x1D5EB;</span></span>
+2. <!-- .element: class="fragment" data-fragment-index="1" --> <span class="fragment highlight-green" data-fragment-index="3">Write the code necessary to make the test pass <span class="fragment status-icon" data-fragment-index="3">&#x2714;</span></span>
 3. <!-- .element: class="fragment" data-fragment-index="2" --> Refactor, rinse, & repeat
 
 Note:
