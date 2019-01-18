@@ -7,7 +7,7 @@ function formatCurrency(int $cents, string $prefix = '$'): string
 }
 ```
 
-```
+```php
 function testFormatCurrencyAppliesPrefix()
 {
     $this->assertEquals(
