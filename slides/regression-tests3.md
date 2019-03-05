@@ -18,10 +18,10 @@
     }
 }</code></pre>
 
-<pre class="fragment-replacement"><output class="fragment fade-out" data-fragment-index="0"><span class="pass"><span class="status-icon">&#x2714;</span> There have been no posts in the last 30 days</span>
+<pre class="fragment-replacement"><output class="fragment fade-out" data-fragment-index="0"><span class="pass"><span class="status-icon">&#x2714;</span> There have been no posts in the last 30 days.</span>
 <span class="fail"><span class="status-icon">&#x1D5EB;</span> 1 posts in the last 30 days.</span>
-<span class="pass"><span class="status-icon">&#x2714;</span> 2 posts in the last 30 days.</span></output><output class="fragment fade-in" data-fragment-index="0"><span class="pass"><span class="status-icon">&#x2714;</span> There have been no posts in the last 30 days</span>
-<span class="pass"><span class="status-icon">&#x2714;</span> 1 posts in the last 30 days.</span>
+<span class="pass"><span class="status-icon">&#x2714;</span> 2 posts in the last 30 days.</span></output><output class="fragment fade-in" data-fragment-index="0"><span class="pass"><span class="status-icon">&#x2714;</span> There have been no posts in the last 30 days.</span>
+<span class="pass"><span class="status-icon">&#x2714;</span> One post in the last 30 days.</span>
 <span class="pass"><span class="status-icon">&#x2714;</span> 2 posts in the last 30 days.</span></output></pre>
 
 Note:
