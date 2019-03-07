@@ -10,10 +10,9 @@ function formatCurrency(int $cents, string $prefix = '$'): string
 ```php
 function testFormatCurrencyAppliesPrefix()
 {
-    $this->assertEquals(
-        'USD $5.25',
-        formatCurrency(525, 'USD $')
-    );
+    $result = formatCurrency(525, 'USD $');
+
+    $this->assertEquals('USD $5.25', $result);
 }
 ```
 <!-- .element: class="fragment" -->
