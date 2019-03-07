@@ -4,7 +4,9 @@
 
     public function setUp()
     {
-        $this->instance = new MyApp;
+        $this->instance = new MyApp(
+            // Some complicated setup.
+        );
     }
 
     public function testSomeMethodReturnsArray()

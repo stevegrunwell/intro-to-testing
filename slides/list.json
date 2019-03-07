@@ -1,10 +1,6 @@
 [
     "index.md",
     [
-        "who-am-i.md",
-        "emily.md"
-    ],
-    [
         "automated-testing.md",
         "types-of-testing.md",
         "testing-pyramid.md",
