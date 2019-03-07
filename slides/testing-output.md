@@ -20,12 +20,12 @@ public function greet()
     $user->greet();
     $output = ob_get_clean();
 
-    $this->assertContains('Tony', $output);
+    $this->assertSame('Hello, Tony!', $output);
 }</code><code class="hljs lang-php fragment fade-in" data-fragment-index="2">public function testRendersHelloWorld()
 {
     $user = new User([
         'first_name' => 'Tony',
-        'last_name'  => 'Stank',
+        'last_name'  => 'Stark',
     ]);
 
     $this->setExpectedOutput('Hello, Tony!');

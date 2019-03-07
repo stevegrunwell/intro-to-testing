@@ -4,4 +4,7 @@
 Steve Grunwell<br>
 Senior Software Engineer, Liquid Web
 
-[stevegrunwell.com/slides/intro-to-testing](https://stevegrunwell.com/slides/intro-to-testing)<!-- .element: class="slides-link" -->
+<p class="slides-link">
+    [stevegrunwell.com/slides/intro-to-testing](https://stevegrunwell.com/slides/intro-to-testing)<br>
+    [joind.in/talk/860b1](https://joind.in/talk/860b1)
+</p>
