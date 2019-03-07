@@ -14,6 +14,8 @@ public function testHandlesDuplicateToppings()
 
     // Assert.
     $this->assertCount(2, $toppings);
+    $this->assertContains('pepperoni', $toppings);
+    $this->assertContains('sausage', $toppings);
 }
 ```
 
