@@ -4,10 +4,11 @@ Used to run tests of a similar nature, across suites & classes:
 
 ```php
 /**
+ * @test
  * @group API
  * @group UserContent
  */
-public function testIncludesPrivatePosts()
+public function responses_should_include_private_posts()
 {
     // ...
 }
