@@ -30,6 +30,8 @@ public function testThrowsException()
     someFunction();
 }</code></pre>
 
+(Deprecated in PHPUnit 8.0)<!-- .element: class="fragment" data-fragment-index="2" -->
+
 Note:
 
 * Sometimes, we also need to test that certain errors occur
