@@ -1,4 +1,4 @@
-<pre class="fragment-replacement"><output class="hljs fragment fade-out" data-fragment-index="0" style="max-height: none;">PHPUnit 7.5.1 by Sebastian Bergmann and contributors.
+<pre class="fragment-replacement"><output class="hljs fragment fade-out" data-fragment-index="0" style="max-height: none;">PHPUnit 8.0.6 by Sebastian Bergmann and contributors.
 
 ...............................................  47 / 511 (  9%)
 ...............................................  94 / 511 ( 18%)
@@ -15,7 +15,7 @@
 Time: 1.13 minutes, Memory: 42.00MB
 
 <span class="highlight-warning">OK, but incomplete, skipped, or risky tests!
-Tests: 511, Assertions: 1085, Skipped: 4.</span></output><output class="hljs fragment fade-in" data-fragment-index="0" style="max-height: none;">PHPUnit 7.5.1 by Sebastian Bergmann and contributors.
+Tests: 511, Assertions: 1085, Skipped: 4.</span></output><output class="hljs fragment fade-in" data-fragment-index="0" style="max-height: none;">PHPUnit 8.0.6 by Sebastian Bergmann and contributors.
 
 .......<span class="highlight-fail">F</span>........                                 16/16 (100%)
 
