@@ -2,7 +2,11 @@
 
 Popular library for creating test doubles:
 
-<pre class="fragment-replacement"><code class="hljs lang-php fragment fade-out" data-fragment-index="0">public function testHandlesEmptyOrderList()
+```php
+/**
+ * @test
+ */
+public function no_orders_should_result_in_no_recent_orders()
 {
     $api = Mockery::mock(Api::class)->makePartial();
     $api->shouldReceive('getOrders')
@@ -10,16 +14,8 @@ Popular library for creating test doubles:
         ->andReturn([]);
 
     $this->assertEmpty($api->getRecentOrders());
-}</code><code class="hljs lang-php fragment fade-in" data-fragment-index="0">public function testHandlesEmptyOrderList()
-{
-    $spy = Mockery::spy(Api::class);
-    $api = new Api;
-
-    $this->assertEmpty($api->getRecentOrders());
-
-    $spy->shouldHaveReceived('getOrders')
-        ->once();
-}</code></pre>
+}
+```
 
 Note:
 
@@ -27,4 +23,3 @@ Note:
     - Expressive interface for defining test doubles, their expectations, and responses
 * API object should receive getOrders() exactly once and return an empty array
     - Will fail the test if getOrders() isn't called exactly once
-* Spies let us adhere closer to Arrange - Act - Assert, but give us less control

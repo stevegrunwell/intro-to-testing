@@ -13,9 +13,7 @@ public function testHandlesDuplicateToppings()
     $toppings = $pizza->getToppings();
 
     // Assert.
-    $this->assertCount(2, $toppings);
-    $this->assertContains('pepperoni', $toppings);
-    $this->assertContains('sausage', $toppings);
+    $this->assertEquals(['pepperoni', 'sausage'], $toppings);
 }
 ```
 
