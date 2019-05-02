@@ -16,3 +16,4 @@ Note:
     - Think of a logger that writes logs to an array you can later analyze
     - Writing to SQLite during testing instead of the production database engine
 * The Five Types of Test Doubles & How to Create Them in PHPUnit
+* Larry Garfield pointed out at Midwest PHP that a lot of times these can be a little fuzzy, so treat them as guidelines rather than hard-and-fast rules.
