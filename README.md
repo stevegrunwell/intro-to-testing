@@ -10,6 +10,7 @@ This talk covers the fundamentals of testing, in a beginner-friendly way. We'll 
 
 * [PHPUnit](https://phpunit.de/)
 * [Mockery](http://docs.mockery.io/en/latest/)
+* [Testing with Guzzle](http://docs.guzzlephp.org/en/stable/testing.html)
 * [_The Five Types of Test Doubles & How to Create Them in PHPUnit_ by Jessica Mauerhan](https://jmauerhan.wordpress.com/2018/10/04/the-5-types-of-test-doubles-and-how-to-create-them-in-phpunit/)
 
 ## Presentation History
