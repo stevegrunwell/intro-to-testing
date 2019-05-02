@@ -1,19 +1,19 @@
 ### Fixtures
 
-<pre class="fragment-replacement"><code class="hljs lang-php fragment fade-out" data-fragment-index="0">public function setUp()
+<pre class="fragment-replacement"><code class="hljs lang-php fragment fade-out" data-fragment-index="0">public function setUp(): void
 {
     // Set 'em up...
 }
 
-public function tearDown()
+public function tearDown(): void
 {
     // ...and knock 'em down.
-}</code><span class="fragment fade-out" data-fragment-index="1"><code class="hljs lang-php fragment fade-in" data-fragment-index="0">public static function setUpBeforeClass()
+}</code><span class="fragment fade-out" data-fragment-index="1"><code class="hljs lang-php fragment fade-in" data-fragment-index="0">public static function setUpBeforeClass(): void
 {
     // Set 'em up (once)...
 }
 
-public static function tearDownAfterClass()
+public static function tearDownAfterClass(): void
 {
     // ...and knock 'em down (once).
 }</code></span><code class="hljs lang-php fragment fade-in" data-fragment-index="1">/**
