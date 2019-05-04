@@ -14,7 +14,7 @@ public function testFiltersPostsByAuthor()
     $response = $this->get('/posts?author=' . $bob->id);
 
     // We should only see Bob's posts.
-    $this->assert($bobPosts, array_column($response, 'id'));
+    $this->assertEquals($bobPosts, array_column($response, 'id'));
 }
 ```
 
